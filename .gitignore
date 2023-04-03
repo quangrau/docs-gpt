@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+.next
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.production
+
+#include template .env file for docker-compose
+!docker/.env
+!docker/supabase/.env
+!docker/supabase-traefik/.env
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp
