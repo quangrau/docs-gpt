@@ -1,0 +1,41 @@
+{
+  "name": "slardar-chatbot-poc",
+  "version": "0.1.0",
+  "private": true,
+  "author": "quangrau<twitter:@quangrau910>",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "ingest": "tsx -r dotenv/config src/scripts/ingest-data.ts"
+  },
+  "dependencies": {
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@pinecone-database/pinecone": "^0.0.14",
+    "@radix-ui/react-accordion": "^1.1.1",
+    "@types/node": "18.16.0",
+    "@types/react": "18.0.38",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "clsx": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "langchain": "^0.0.63",
+    "lucide-react": "^0.180.0",
+    "next": "13.3.1",
+    "pdf-parse": "1.1.1",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^1.12.0",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "1.1.1",
+    "tsx": "^3.12.6"
+  }
+}
