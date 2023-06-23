@@ -4,7 +4,7 @@ Use the new GPT-\* api to build a chatGPT chatbot for multiple Large PDF files.
 
 Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js.
 
-<video src='preview/demo.mov' width=480 />
+<video src='preview/demo.mov' width=480></video>
 
 ## Development
 
